@@ -44,7 +44,7 @@ public class Mayin {
                 checkBomb(row, col);
                 succ++;
                 if (succ == (size - (size/4))) {
-                    System.out.println("Kazandınız! S");
+                    System.out.println("Kazandınız! ");
                 }
             }else {
                 game = false;
